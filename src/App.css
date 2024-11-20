@@ -2,3 +2,22 @@ body{
   background-color: gray;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.forecast {
+  margin-top: 20px;
+}
+
+.forecast-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.forecast-card img {
+  width: 50px;
+  height: 50px;
+}
