@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+  }
+  
+  .app-name {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  .search-bar {
+    margin: 20px;
+  }
+  
+  .city-search {
+    padding: 10px;
+    font-size: 1em;
+    width: 300px;
+  }
+  
+  .favorites {
+    margin-top: 20px;
+  }
+  
+  .favorites ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .favorites li {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 5px;
+  }
+  
+  .forecast ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .forecast li {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1.2em;
+  }
+  
